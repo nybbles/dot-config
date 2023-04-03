@@ -1,0 +1,20 @@
+Code/**
+dconf/**
+gh/hosts.yml
+obsidian/**
+pacman/**
+pipewire/**
+pulse/cookie
+pulse/*.tdb
+Slack/**
+spotify/**
+Unknown Organization/**
+via-nativia/**
+wallpaper/**
+pavucontrol.ini
+QtProject.conf
+zoom.conf
+zoomus.conf
+pulse/*-default-sink
+pulse/*-default-source
+
