@@ -17,5 +17,5 @@ theme='style-2'
 rofi \
     -show combi \
     -modes combi \
-    -combi-modes "window,drun,run" \
+    -combi-modes "window,drun" \
     -theme ${dir}/${theme}.rasi
