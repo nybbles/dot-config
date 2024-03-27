@@ -1,6 +1,3 @@
 [submodule "nvim"]
 	path = nvim
-	url = https://github.com/nybbles/NvChad
-[submodule "eww"]
-	path = eww
-	url = https://github.com/nybbles/eww-workspace-bar
+	url = https://github.com/nybbles/config-nvim
