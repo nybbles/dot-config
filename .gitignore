@@ -17,4 +17,5 @@ zoom.conf
 zoomus.conf
 pulse/*-default-sink
 pulse/*-default-source
-
+FortiClient/**
+gtk-3.0/**
