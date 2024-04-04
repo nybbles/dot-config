@@ -151,6 +151,8 @@ fzf-git-checkout() {
 
 alias gb='fzf-git-branch'
 alias gco='fzf-git-checkout'
+alias gst='git status'
+alias lg='lazygit'
 
 # From https://github.com/unixorn/fzf-zsh-plugin#customization
 export FZF_PREVIEW_ADVANCED=true
@@ -191,3 +193,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
