@@ -19,3 +19,4 @@ pulse/*-default-sink
 pulse/*-default-source
 FortiClient/**
 gtk-3.0/**
+tmux/plugins/**
