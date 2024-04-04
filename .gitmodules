@@ -2,3 +2,6 @@
 	path = nvim
 	url = https://github.com/nybbles/config-nvim
 	branch = main
+[submodule "oh-my-tmux"]
+	path = oh-my-tmux
+	url = https://github.com/gpakosz/.tmux.git
