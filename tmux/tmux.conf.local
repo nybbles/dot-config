@@ -446,6 +446,7 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 
 TMUX_FZF_LAUNCH_KEY="f"
 
+set -g @plugin 'tmux-plugins/tmux-yank'
 
 
 # -- custom variables ----------------------------------------------------------
