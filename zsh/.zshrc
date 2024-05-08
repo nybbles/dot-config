@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git poetry fzf-zsh-plugin fzf-tab)
+plugins=(git poetry fzf-zsh-plugin fzf-tab zsh-defer zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -196,3 +196,37 @@ eval "$(pyenv virtualenv-init -)"
 
 export PATH=$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH
 eval "$(tmuxifier init -)"
+
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+
+vim_ins_mode="%F{black}%K{yellow} INS %k%f"
+vim_cmd_mode="%F{white}%K{red} CMD %k%f"
+vim_vis_mode="%F{black}%K{blue} VIS %k%f"
+vim_visline_mode="%F{black}%K{blue} VIL %k%f"
+vim_rep_mode="%F{black}%K{green} REP %k%f"
+vim_mode=$vim_ins_mode
+
+function zvm_after_select_vi_mode() {
+  case $ZVM_MODE in
+    $ZVM_MODE_NORMAL)
+      vim_mode=$vim_cmd_mode
+    ;;
+    $ZVM_MODE_INSERT)
+      vim_mode=$vim_ins_mode
+    ;;
+    $ZVM_MODE_VISUAL)
+      vim_mode=$vim_vis_mode
+    ;;
+    $ZVM_MODE_VISUAL_LINE)
+      vim_mode=$vim_visline_mode
+    ;;
+    $ZVM_MODE_REPLACE)
+      vim_mode=$vim_rep_mode
+    ;;
+  esac
+}
+
+zsh-defer -c 'PROMPT="\${vcs_info_msg_0_} \${vim_mode} ${PROMPT}"'
+
+bindkey -v
+
