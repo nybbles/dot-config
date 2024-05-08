@@ -20,3 +20,12 @@ pulse/*-default-source
 FortiClient/**
 gtk-3.0/**
 tmux/plugins/**
+zsh/.zcompdump**
+yelp/
+wireshark/
+cef_user_data/
+google-chrome/
+evolution/
+eog/
+lazygit/
+pgcli/
