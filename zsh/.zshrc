@@ -232,3 +232,7 @@ bindkey -v
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/night-owl.omp.json)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export GPG_TTY=$(tty)
