@@ -1,0 +1,7 @@
+import = ["~/.config/alacritty/alacritty-auto-theme/theme.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12
