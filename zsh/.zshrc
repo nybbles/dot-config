@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git poetry fzf-zsh-plugin fzf-tab zsh-defer zsh-vi-mode)
+plugins=(git poetry fzf-zsh-plugin fzf-tab zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -226,13 +226,13 @@ function zvm_after_select_vi_mode() {
   esac
 }
 
-zsh-defer -c 'PROMPT="\${vcs_info_msg_0_} \${vim_mode} ${PROMPT}"'
 
 bindkey -v
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/night-owl.omp.json)"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export GPG_TTY=$(tty)
-
