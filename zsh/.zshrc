@@ -231,3 +231,8 @@ zsh-defer -c 'PROMPT="\${vcs_info_msg_0_} \${vim_mode} ${PROMPT}"'
 bindkey -v
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export GPG_TTY=$(tty)
+
