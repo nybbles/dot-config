@@ -2,119 +2,38 @@
   <configuration>
     <logicalmonitor>
       <x>0</x>
-      <y>0</y>
-      <scale>1.5009980201721191</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>BOE</vendor>
-          <product>0x095f</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2256</width>
-          <height>1504</height>
-          <rate>59.999</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1.5009980201721191</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>BOE</vendor>
-          <product>0x095f</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2256</width>
-          <height>1504</height>
-          <rate>59.999</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>1503</x>
-      <y>0</y>
+      <y>100</y>
       <scale>1</scale>
       <monitor>
         <monitorspec>
-          <connector>DP-5</connector>
-          <vendor>GSM</vendor>
-          <product>LG QHD</product>
-          <serial>112NTYT1A786</serial>
+          <connector>DP-4</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
         </monitorspec>
         <mode>
           <width>2560</width>
           <height>1440</height>
-          <rate>74.964</rate>
+          <rate>59.950550079345703</rate>
         </mode>
       </monitor>
     </logicalmonitor>
-  </configuration>
-  <configuration>
     <logicalmonitor>
-      <x>1503</x>
+      <x>2560</x>
       <y>0</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-6</connector>
-          <vendor>GSM</vendor>
-          <product>LG QHD</product>
-          <serial>112NTYT1A786</serial>
+          <connector>DP-1</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
         </monitorspec>
         <mode>
-          <width>2560</width>
+          <width>3440</width>
           <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1.5009980201721191</scale>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>BOE</vendor>
-          <product>0x095f</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2256</width>
-          <height>1504</height>
-          <rate>59.999</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-6</connector>
-          <vendor>GSM</vendor>
-          <product>LG QHD</product>
-          <serial>112NTYT1A786</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>74.964</rate>
+          <rate>59.972614288330078</rate>
         </mode>
       </monitor>
     </logicalmonitor>
