@@ -50,3 +50,11 @@ gnome-initial-setup-done
 *.log
 
 lnav
+
+syncthing
+
+mimeapps.list
+
+.gsd-keyboard.settings-ported
+
+nautilus/search-metadata
