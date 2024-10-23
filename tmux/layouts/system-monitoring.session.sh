@@ -1,25 +1,19 @@
 # Set a custom session root path. Default is `$HOME`.
 # Must be called before `initialize_session`.
-session_root "~/code/model_development"
+#session_root "~/Projects/system-monitoring"
 
 # Create session with specified name if it does not already exist. If no
 # argument is given, session name will be based on layout file name.
-if initialize_session "model-development"; then
+if initialize_session "system-monitoring"; then
 
   # Create a new window inline within session layout definition.
-  new_window "code"
-  run_cmd "poetry run nvim"
-
-  new_window "git-stuff"
-  run_cmd lazygit
-  split_h 30
-
+  #new_window "misc"
 
   # Load a defined window layout.
-  #load_window "example"
+  load_window "system-perf"
 
   # Select the default active window on session creation.
-  select_window 0
+  #select_window 1
 
 fi
 
