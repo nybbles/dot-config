@@ -382,5 +382,6 @@
     "foreground": "#d6deeb",
     "template": "\ue285 "
   },
-  "version": 2
+  "version": 2,
+  "auto_upgrade": true
 }
