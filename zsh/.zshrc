@@ -24,8 +24,7 @@ ZSH_THEME="robbyrussell"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode disabled  # disable automatic updates zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -236,3 +235,14 @@ eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/night-owl.omp.json)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export GPG_TTY=$(tty)
+
+export PATH=$HOME/.cargo/bin:$HOME/.local/bin:$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH
+
+export TMUXIFIER_LAYOUT_PATH="$HOME/.config/tmux/layouts"
+
+eval "$(tmuxifier init -)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/nimalan/.lmstudio/bin"
+# End of LM Studio CLI section
+
