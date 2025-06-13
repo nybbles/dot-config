@@ -246,3 +246,4 @@ eval "$(tmuxifier init -)"
 export PATH="$PATH:/home/nimalan/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export PATH=~/.npm-global/bin:$PATH
