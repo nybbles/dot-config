@@ -2,19 +2,28 @@
 # Must be called before `initialize_session`.
 #session_root "~/Projects/computer-setup-work"
 
-session_root "~"
+session_root "~/.config"
 
 # Create session with specified name if it does not already exist. If no
 # argument is given, session name will be based on layout file name.
 if initialize_session "computer-setup-work"; then
 
   # Create a new window inline within session layout definition.
-  window_root "~/.config"
   new_window ".config"
-  run_cmd "nvim"
+  
+  # Split the window vertically down the middle
+  split_h 50
+  
+  # Left pane: lazygit for ~/.config
+  select_pane 0
+  run_cmd "lazygit"
+  
+  # Right pane: lazygit for ~/.config/nvim
+  select_pane 1
+  run_cmd "cd ~/.config/nvim && lazygit"
 
-  # Load a defined window layout.
-  #load_window "example"
+  # Add coding window
+  load_window "code-window"
 
   # Select the default active window on session creation.
   #select_window 1
