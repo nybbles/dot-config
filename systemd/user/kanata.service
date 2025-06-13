@@ -8,7 +8,6 @@ Environment=DISPLAY=:0
 Environment=HOME=%h
 Type=simple
 ExecStart=%h/.cargo/bin/kanata --cfg %h/.config/kanata.kbd
-Restart=never
 
 [Install]
 WantedBy=default.target

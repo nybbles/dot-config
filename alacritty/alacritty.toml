@@ -1,5 +1,3 @@
-import = ["~/.config/alacritty/alacritty-auto-theme/theme.toml"]
-
 [env]
 TERM = "xterm-256color"
 
@@ -9,3 +7,6 @@ size = 11.5
 [font.normal]
 family = "0xProto Nerd Font Mono"
 style = "Regular"
+
+[general]
+import = ["~/.config/alacritty/alacritty-auto-theme/theme.toml"]

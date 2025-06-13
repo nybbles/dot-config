@@ -7,4 +7,4 @@
 	url = https://github.com/gpakosz/.tmux.git
 [submodule "alacritty/alacritty-auto-theme"]
 	path = alacritty/alacritty-auto-theme
-	url = https://github.com/shombando/alacritty-auto-theme.git
+	url = https://github.com/nybbles/alacritty-auto-theme.git
