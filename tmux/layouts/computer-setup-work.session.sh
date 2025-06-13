@@ -23,7 +23,7 @@ if initialize_session "computer-setup-work"; then
   run_cmd "cd ~/.config/nvim && lazygit"
 
   # Add coding window
-  load_window "code-window"
+  load_window "code"
 
   # Select the default active window on session creation.
   #select_window 1

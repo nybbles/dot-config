@@ -6,8 +6,8 @@ session_root "~/code"
 # argument is given, session name will be based on layout file name.
 if initialize_session "code"; then
 
-  # Set window root for the coding window
-  window_root "~/code"
+  # Create main coding window
+  new_window "code"
 fi
 
 # Finalize session creation and switch/attach to it.
