@@ -1,6 +1,6 @@
 [Unit]
 Description=Alacritty automated theme switching based on Gnome system theme
-Require=dbus.service
+Requires=dbus.service
 After=dbus.service
 
 [Service]
