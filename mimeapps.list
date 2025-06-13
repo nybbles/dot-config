@@ -1,10 +1,15 @@
 [Default Applications]
 inode/directory=org.gnome.Nautilus.desktop
-text/html=firefox_firefox.desktop
-x-scheme-handler/http=firefox_firefox.desktop
-x-scheme-handler/https=firefox_firefox.desktop
+text/html=com.google.Chrome.desktop
+x-scheme-handler/http=com.google.Chrome.desktop
+x-scheme-handler/https=com.google.Chrome.desktop
 x-scheme-handler/about=firefox_firefox.desktop
 x-scheme-handler/unknown=firefox_firefox.desktop
+application/xhtml+xml=com.google.Chrome.desktop
 
 [Added Associations]
 application/vnd.debian.binary-package=snap-store_ubuntu-software-local-file.desktop;
+x-scheme-handler/http=com.google.Chrome.desktop;
+application/xhtml+xml=com.google.Chrome.desktop;
+text/html=com.google.Chrome.desktop;
+x-scheme-handler/https=com.google.Chrome.desktop;
