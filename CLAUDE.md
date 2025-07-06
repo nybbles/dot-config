@@ -1,0 +1,2 @@
+- Do not amend previous Git commits.
+- Keep commits focused on single changes if possible. Feel free to use the necessary number of separate commits to do this.
