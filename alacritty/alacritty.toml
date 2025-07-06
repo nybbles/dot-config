@@ -1,3 +1,71 @@
+# themester_managed = "Theme: Nighthawk Dark"
+
+[colors.bright]
+black = "#222222"
+blue = "#666666"
+cyan = "#777777"
+green = "#888888"
+magenta = "#994444"
+red = "#cc6666"
+white = "#ff8888"
+yellow = "#aaaaaa"
+
+[colors.cursor]
+cursor = "#aa4444"
+text = "#000000"
+
+[colors.footer_bar]
+background = "#222222"
+foreground = "#cc6666"
+
+[colors.hints.end]
+background = "#222222"
+foreground = "#cc6666"
+
+[colors.hints.start]
+background = "#664444"
+foreground = "#000000"
+
+[[colors.indexed_colors]]
+color = "#aa4444"
+index = 16
+
+[[colors.indexed_colors]]
+color = "#664444"
+index = 17
+
+[colors.normal]
+black = "#000000"
+blue = "#444444"
+cyan = "#555555"
+green = "#666666"
+magenta = "#774444"
+red = "#aa4444"
+white = "#cc6666"
+yellow = "#888888"
+
+[colors.primary]
+background = "#000000"
+bright_foreground = "#ff8888"
+dim_foreground = "#885555"
+foreground = "#cc6666"
+
+[colors.search.focused_match]
+background = "#aa4444"
+foreground = "#000000"
+
+[colors.search.matches]
+background = "#664444"
+foreground = "#000000"
+
+[colors.selection]
+background = "#aa4444"
+text = "#000000"
+
+[colors.vi_mode_cursor]
+cursor = "#888888"
+text = "#000000"
+
 [env]
 TERM = "xterm-256color"
 
@@ -9,4 +77,9 @@ family = "0xProto Nerd Font Mono"
 style = "Regular"
 
 [general]
-import = ["~/.config/alacritty/alacritty-auto-theme/theme.toml"]
+import = ["~/.config/alacritty/catppuccin-latte.toml"]
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "Return"
+mods = "Super"

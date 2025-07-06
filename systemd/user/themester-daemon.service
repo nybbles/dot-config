@@ -1,0 +1,30 @@
+[Unit]
+Description=Themester theme switching daemon
+Documentation=https://github.com/your-username/themester
+After=graphical-session.target
+Wants=graphical-session.target
+
+[Service]
+Type=exec
+ExecStart=/home/nimalan/.cargo/bin/themester-daemon
+Restart=on-failure
+RestartSec=5
+
+# Environment
+Environment=HOME=/home/nimalan
+Environment=USER=nimalan
+Environment=XDG_CONFIG_HOME=/home/nimalan/.config
+Environment=XDG_DATA_HOME=/home/nimalan/.local/share
+Environment=RUST_LOG=debug
+
+# Security settings
+NoNewPrivileges=true
+ProtectHome=false
+ProtectSystem=strict
+ReadWritePaths=/home/nimalan/.config/themester /home/nimalan/.local/share/themester /home/nimalan/.themes
+
+# Make sure we have access to user session
+Environment=XDG_RUNTIME_DIR=%t
+
+[Install]
+WantedBy=default.target
