@@ -21,9 +21,21 @@ if ! [[ "$target" =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
+# Get the highest window index (last window position)
+last_window=$(tmux list-windows -F '#{window_index}' | sort -n | tail -1)
+
+# If target is beyond the last window, move to the end
+if [ "$target" -gt "$last_window" ]; then
+    target="$last_window"
+fi
+
 # If already at target position, do nothing
 if [ "$current" -eq "$target" ]; then
-    tmux display-message "Already at position $target"
+    if [ "$1" -gt "$last_window" ]; then
+        tmux display-message "Already at last position ($target)"
+    else
+        tmux display-message "Already at position $target"
+    fi
     exit 0
 fi
 
@@ -48,4 +60,9 @@ tmux select-window -t "$target"
 # Clear any displayed messages/windows list
 tmux clear-history 2>/dev/null || true
 
-tmux display-message "Moved window to position $target"
+# Show appropriate message
+if [ "$1" -gt "$last_window" ]; then
+    tmux display-message "Moved window to last position ($target)"
+else
+    tmux display-message "Moved window to position $target"
+fi
