@@ -6,8 +6,8 @@ window_root "$PWD"
 new_window "coding $(basename "$PWD")"
 
 # Split the window vertically with right pane 15% of screen
-split_h 15
+split_h 30
 
 # Select the left pane (main coding pane)
 select_pane 0
-run_cmd "nvim" 
+run_cmd "nvim"
