@@ -13,15 +13,15 @@ RestartSec=5
 # Environment
 Environment=HOME=/home/nimalan
 Environment=USER=nimalan
-Environment=XDG_CONFIG_HOME=/home/nimalan/.config
-Environment=XDG_DATA_HOME=/home/nimalan/.local/share
-Environment=RUST_LOG=debug
+Environment=XDG_CONFIG_HOME=/home/nimalan/.config/themester
+Environment=XDG_DATA_HOME=/home/nimalan/.local/share/themester
+Environment=RUST_LOG=info
 
 # Security settings
 NoNewPrivileges=true
 ProtectHome=false
 ProtectSystem=strict
-ReadWritePaths=/home/nimalan/.config/themester /home/nimalan/.local/share/themester /home/nimalan/.themes
+ReadWritePaths=/home/nimalan/.config/themester /home/nimalan/.local/share/themester /home/nimalan/.themes/available %h/.config %h/.local
 
 # Make sure we have access to user session
 Environment=XDG_RUNTIME_DIR=%t
