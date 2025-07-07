@@ -80,7 +80,7 @@ style = "Regular"
 import = ["~/.config/alacritty/catppuccin-latte.toml"]
 
 [window]
-theme = "auto"
+decorations = "none"
 
 [[keyboard.bindings]]
 action = "ToggleFullscreen"
