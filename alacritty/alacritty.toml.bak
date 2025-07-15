@@ -1,70 +1,70 @@
-# themester_managed = "Theme: Instinct Dark"
+# themester_managed = "Theme: Nighthawk Light"
 
 [colors.bright]
-black = "#2a2a2a"
-blue = "#5dade2"
-cyan = "#5ddffd"
-green = "#50fa7b"
-magenta = "#bd79d1"
-red = "#ff5555"
+black = "#2d3748"
+blue = "#3182ce"
+cyan = "#319795"
+green = "#38a169"
+magenta = "#805ad5"
+red = "#e53e3e"
 white = "#ffffff"
-yellow = "#ffff55"
+yellow = "#d69e2e"
 
 [colors.cursor]
-cursor = "#ff6b35"
-text = "#0a0a0a"
+cursor = "#4a5568"
+text = "#f8f9fa"
 
 [colors.footer_bar]
-background = "#2a2a2a"
-foreground = "#f5f5f5"
+background = "#e2e8f0"
+foreground = "#2d3748"
 
 [colors.hints.end]
-background = "#2a2a2a"
-foreground = "#f5f5f5"
+background = "#e2e8f0"
+foreground = "#2d3748"
 
 [colors.hints.start]
-background = "#ffd700"
-foreground = "#0a0a0a"
+background = "#718096"
+foreground = "#f8f9fa"
 
 [[colors.indexed_colors]]
-color = "#ff6b35"
+color = "#4a5568"
 index = 16
 
 [[colors.indexed_colors]]
-color = "#8e44ad"
+color = "#2d3748"
 index = 17
 
 [colors.normal]
-black = "#0a0a0a"
-blue = "#4a90e2"
-cyan = "#17a2b8"
-green = "#32cd32"
-magenta = "#9b59b6"
-red = "#e74c3c"
-white = "#f5f5f5"
-yellow = "#ffd700"
+black = "#1a202c"
+blue = "#2c5282"
+cyan = "#2c7a7b"
+green = "#2f855a"
+magenta = "#6b46c1"
+red = "#c53030"
+white = "#e2e8f0"
+yellow = "#b7791f"
 
 [colors.primary]
-background = "#0a0a0a"
-bright_foreground = "#ffffff"
-dim_foreground = "#8a8a8a"
-foreground = "#f5f5f5"
+background = "#f8f9fa"
+bright_foreground = "#1a202c"
+dim_foreground = "#4a5568"
+foreground = "#2d3748"
 
 [colors.search.focused_match]
-background = "#32cd32"
-foreground = "#0a0a0a"
+background = "#4a5568"
+foreground = "#f8f9fa"
 
 [colors.search.matches]
-background = "#ffd700"
-foreground = "#0a0a0a"
+background = "#718096"
+foreground = "#f8f9fa"
 
 [colors.selection]
-background = "#ff6b35"
-text = "#0a0a0a"
+background = "#4a5568"
+text = "#f8f9fa"
 
 [colors.vi_mode_cursor]
-cursor = "#4a90e2"
-text = "#0a0a0a"
+cursor = "#2d3748"
+text = "#f8f9fa"
 
 [env]
 TERM = "xterm-256color"
@@ -83,3 +83,6 @@ import = ["~/.config/alacritty/catppuccin-latte.toml"]
 action = "ToggleFullscreen"
 key = "Return"
 mods = "Super"
+
+[window]
+decorations = "none"
