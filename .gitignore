@@ -28,7 +28,6 @@ pulse/*-default-source
 FortiClient/**
 gtk-3.0/**
 tmux/plugins/**
-tmux/layouts/**
 zsh/.zcompdump**
 yelp/
 wireshark/

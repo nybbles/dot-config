@@ -1,70 +1,70 @@
-# themester_managed = "Theme: Nighthawk Light"
+# themester_managed = "Theme: Nighthawk Dark"
 
 [colors.bright]
-black = "#2d3748"
-blue = "#3182ce"
-cyan = "#319795"
-green = "#38a169"
-magenta = "#805ad5"
-red = "#e53e3e"
-white = "#ffffff"
-yellow = "#d69e2e"
+black = "#222222"
+blue = "#666666"
+cyan = "#777777"
+green = "#888888"
+magenta = "#994444"
+red = "#cc6666"
+white = "#ff8888"
+yellow = "#aaaaaa"
 
 [colors.cursor]
-cursor = "#4a5568"
-text = "#f8f9fa"
+cursor = "#aa4444"
+text = "#000000"
 
 [colors.footer_bar]
-background = "#e2e8f0"
-foreground = "#2d3748"
+background = "#222222"
+foreground = "#cc6666"
 
 [colors.hints.end]
-background = "#e2e8f0"
-foreground = "#2d3748"
+background = "#222222"
+foreground = "#cc6666"
 
 [colors.hints.start]
-background = "#718096"
-foreground = "#f8f9fa"
+background = "#664444"
+foreground = "#000000"
 
 [[colors.indexed_colors]]
-color = "#4a5568"
+color = "#aa4444"
 index = 16
 
 [[colors.indexed_colors]]
-color = "#2d3748"
+color = "#664444"
 index = 17
 
 [colors.normal]
-black = "#1a202c"
-blue = "#2c5282"
-cyan = "#2c7a7b"
-green = "#2f855a"
-magenta = "#6b46c1"
-red = "#c53030"
-white = "#e2e8f0"
-yellow = "#b7791f"
+black = "#000000"
+blue = "#444444"
+cyan = "#555555"
+green = "#666666"
+magenta = "#774444"
+red = "#aa4444"
+white = "#cc6666"
+yellow = "#888888"
 
 [colors.primary]
-background = "#f8f9fa"
-bright_foreground = "#1a202c"
-dim_foreground = "#4a5568"
-foreground = "#2d3748"
+background = "#000000"
+bright_foreground = "#ff8888"
+dim_foreground = "#885555"
+foreground = "#cc6666"
 
 [colors.search.focused_match]
-background = "#4a5568"
-foreground = "#f8f9fa"
+background = "#aa4444"
+foreground = "#000000"
 
 [colors.search.matches]
-background = "#718096"
-foreground = "#f8f9fa"
+background = "#664444"
+foreground = "#000000"
 
 [colors.selection]
-background = "#4a5568"
-text = "#f8f9fa"
+background = "#aa4444"
+text = "#000000"
 
 [colors.vi_mode_cursor]
-cursor = "#2d3748"
-text = "#f8f9fa"
+cursor = "#888888"
+text = "#000000"
 
 [env]
 TERM = "xterm-256color"

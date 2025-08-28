@@ -3,6 +3,45 @@
     <logicalmonitor>
       <x>0</x>
       <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-12</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-13</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>1440</y>
       <scale>1.5009980201721191</scale>
       <primary>yes</primary>
       <monitor>
@@ -16,6 +55,159 @@
           <width>2256</width>
           <height>1504</height>
           <rate>59.999</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-3</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-11</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-10</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-12</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-11</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-10</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-9</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -64,10 +256,9 @@
       <x>2560</x>
       <y>0</y>
       <scale>1</scale>
-      <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-11</connector>
+          <connector>DP-10</connector>
           <vendor>DEL</vendor>
           <product>DELL P3421W</product>
           <serial>F8N5TR3</serial>
@@ -76,6 +267,25 @@
           <width>3440</width>
           <height>1440</height>
           <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>1440</y>
+      <scale>1.5009980201721191</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x095f</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2256</width>
+          <height>1504</height>
+          <rate>59.999</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -100,124 +310,7 @@
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>2560</x>
-      <y>108</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-3</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-12</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-13</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-11</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-10</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>2560</x>
       <y>1440</y>
       <scale>1.5009980201721191</scale>
       <primary>yes</primary>
@@ -236,129 +329,15 @@
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>2560</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-1</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>0</x>
       <y>0</y>
       <scale>1</scale>
       <monitor>
         <monitorspec>
-          <connector>DP-3</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-10</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>1440</y>
-      <scale>1.5009980201721191</scale>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>BOE</vendor>
-          <product>0x095f</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>2256</width>
-          <height>1504</height>
-          <rate>59.999</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-9</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1440</height>
-          <rate>59.951</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>2560</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>DP-12</connector>
-          <vendor>DEL</vendor>
-          <product>DELL P3421W</product>
-          <serial>F8N5TR3</serial>
-        </monitorspec>
-        <mode>
-          <width>3440</width>
-          <height>1440</height>
-          <rate>59.973</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>DP-11</connector>
-          <vendor>DEL</vendor>
-          <product>DELL U2715H</product>
-          <serial>H7YCC68502GL</serial>
+          <connector>DP-7</connector>
+          <vendor>GSM</vendor>
+          <product>LG QHD</product>
+          <serial>112NTYT1A786</serial>
         </monitorspec>
         <mode>
           <width>2560</width>
@@ -472,6 +451,201 @@
       <primary>yes</primary>
       <monitor>
         <monitorspec>
+          <connector>DP-11</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-8</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>108</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-1</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-3</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-6</connector>
+          <vendor>GSM</vendor>
+          <product>LG QHD</product>
+          <serial>112NTYT1A786</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>1440</y>
+      <scale>1.5009980201721191</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x095f</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2256</width>
+          <height>1504</height>
+          <rate>59.999</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1.5009980201721191</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x095f</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2256</width>
+          <height>1504</height>
+          <rate>59.999</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-10</connector>
+          <vendor>DEL</vendor>
+          <product>DELL P3421W</product>
+          <serial>F8N5TR3</serial>
+        </monitorspec>
+        <mode>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>59.973</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>1440</y>
+      <scale>1.5009980201721191</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>BOE</vendor>
+          <product>0x095f</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>2256</width>
+          <height>1504</height>
+          <rate>59.999</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>DP-9</connector>
+          <vendor>DEL</vendor>
+          <product>DELL U2715H</product>
+          <serial>H7YCC68502GL</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1440</height>
+          <rate>59.951</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>2560</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
           <connector>DP-10</connector>
           <vendor>DEL</vendor>
           <product>DELL P3421W</product>
@@ -490,7 +664,7 @@
       <scale>1</scale>
       <monitor>
         <monitorspec>
-          <connector>DP-9</connector>
+          <connector>DP-8</connector>
           <vendor>DEL</vendor>
           <product>DELL U2715H</product>
           <serial>H7YCC68502GL</serial>
