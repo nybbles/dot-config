@@ -1,0 +1,19 @@
+current_theme = "catppuccin-mocha"
+variant_preference = "dark"
+
+[gnome]
+auto_switch = true
+light_theme = "nighthawk-light"
+dark_theme = "nighthawk-dark"
+
+[applications.tmux]
+enabled = true
+
+[applications.neovim]
+enabled = true
+
+[applications.alacritty]
+enabled = true
+
+[applications.ohmyposh]
+enabled = true
